@@ -1,0 +1,426 @@
+{
+  "title": "Предел",
+  "subtitle": "Математический анализ и сопутствующие теории",
+  "chapters": [
+    {
+      "id": "logic",
+      "number": 1,
+      "title": "Язык и методы",
+      "subtitle": "Учимся читать и строить доказательства.",
+      "description": "Кванторы, множества и математическая индукция.",
+      "lessons": [
+        {
+          "id": "quantifiers",
+          "title": "Логика и кванторы",
+          "subtitle": "Как отрицать утверждения и не путать необходимые и достаточные условия.",
+          "minutes": 16,
+          "file": "lessons/quantifiers.md"
+        },
+        {
+          "id": "sets-functions",
+          "title": "Множества и отображения",
+          "subtitle": "Образы, прообразы, инъекции и мощность.",
+          "minutes": 18,
+          "file": "lessons/sets-functions.md"
+        },
+        {
+          "id": "proof",
+          "title": "Методы доказательства",
+          "subtitle": "Индукция, контрапозиция и доказательство от противного.",
+          "minutes": 18,
+          "file": "lessons/proof.md"
+        }
+      ]
+    },
+    {
+      "id": "real",
+      "number": 2,
+      "title": "Действительные числа",
+      "subtitle": "Фундамент непрерывного анализа.",
+      "description": "Порядок, полнота и принцип супремума.",
+      "lessons": [
+        {
+          "id": "supremum",
+          "title": "Точная грань и полнота",
+          "subtitle": "Почему у ограниченного сверху множества есть супремум.",
+          "minutes": 20,
+          "file": "lessons/supremum.md"
+        },
+        {
+          "id": "archimedes",
+          "title": "Архимедовость и плотность",
+          "subtitle": "Целые, рациональные и иррациональные числа на прямой.",
+          "minutes": 18,
+          "file": "lessons/archimedes.md"
+        },
+        {
+          "id": "nested",
+          "title": "Отрезки и компактность прямой",
+          "subtitle": "Вложенные отрезки, конечные покрытия и приложения.",
+          "minutes": 20,
+          "file": "lessons/nested.md"
+        }
+      ]
+    },
+    {
+      "id": "sequences",
+      "number": 3,
+      "title": "Числовые последовательности",
+      "subtitle": "Предел как точное утверждение.",
+      "description": "Сходимость, полнота и подпоследовательности.",
+      "lessons": [
+        {
+          "id": "sequence-limit",
+          "title": "Определение предела",
+          "subtitle": "Язык ε и N, единственность и арифметика пределов.",
+          "minutes": 22,
+          "file": "lessons/sequence-limit.md"
+        },
+        {
+          "id": "cauchy",
+          "title": "Монотонность и критерий Коши",
+          "subtitle": "Когда предел существует ещё до того, как он найден.",
+          "minutes": 20,
+          "file": "lessons/cauchy.md"
+        },
+        {
+          "id": "subsequences",
+          "title": "Подпоследовательности и верхний предел",
+          "subtitle": "Теорема Больцано — Вейерштрасса и lim sup.",
+          "minutes": 19,
+          "file": "lessons/subsequences.md"
+        }
+      ]
+    },
+    {
+      "id": "series",
+      "number": 4,
+      "title": "Числовые ряды",
+      "subtitle": "Бесконечные суммы и их границы.",
+      "description": "Признаки, абсолютная и условная сходимость.",
+      "lessons": [
+        {
+          "id": "positive-series",
+          "title": "Ряды с неотрицательными членами",
+          "subtitle": "Сравнение, интегральный признак и эталонные ряды.",
+          "minutes": 21,
+          "file": "lessons/positive-series.md"
+        },
+        {
+          "id": "absolute-series",
+          "title": "Знакопеременные ряды",
+          "subtitle": "Абсолютная сходимость, Лейбниц и перестановки.",
+          "minutes": 22,
+          "file": "lessons/absolute-series.md"
+        },
+        {
+          "id": "series-tests",
+          "title": "Признаки Даламбера, Коши и Дирихле",
+          "subtitle": "Как выбирать признак и понимать его ограничения.",
+          "minutes": 20,
+          "file": "lessons/series-tests.md"
+        }
+      ]
+    },
+    {
+      "id": "continuity",
+      "number": 5,
+      "title": "Пределы и непрерывность",
+      "subtitle": "Локальные и глобальные свойства функций.",
+      "description": "Предел по Коши и Гейне, непрерывность на компакте.",
+      "lessons": [
+        {
+          "id": "function-limits",
+          "title": "Предел функции",
+          "subtitle": "Определения, односторонние пределы и эквивалентности.",
+          "minutes": 21,
+          "file": "lessons/function-limits.md"
+        },
+        {
+          "id": "continuous-functions",
+          "title": "Непрерывные функции",
+          "subtitle": "Промежуточные значения и достижение экстремумов.",
+          "minutes": 20,
+          "file": "lessons/continuous-functions.md"
+        },
+        {
+          "id": "uniform-continuity",
+          "title": "Равномерная непрерывность",
+          "subtitle": "Теорема Кантора и её контрпримеры.",
+          "minutes": 18,
+          "file": "lessons/uniform-continuity.md"
+        }
+      ]
+    },
+    {
+      "id": "derivatives",
+      "number": 6,
+      "title": "Дифференциальное исчисление",
+      "subtitle": "Линейное приближение и локальный анализ.",
+      "description": "Производные, теоремы о среднем и формула Тейлора.",
+      "lessons": [
+        {
+          "id": "derivative",
+          "title": "Производная и дифференциал",
+          "subtitle": "Определение, правила и связь с непрерывностью.",
+          "minutes": 20,
+          "file": "lessons/derivative.md"
+        },
+        {
+          "id": "mean-value",
+          "title": "Теоремы о среднем",
+          "subtitle": "Ролль, Лагранж, Коши и условия правила Лопиталя.",
+          "minutes": 23,
+          "file": "lessons/mean-value.md"
+        },
+        {
+          "id": "taylor",
+          "title": "Формула Тейлора и экстремумы",
+          "subtitle": "Остаток, асимптотика и исследование функции.",
+          "minutes": 22,
+          "file": "lessons/taylor.md"
+        }
+      ]
+    },
+    {
+      "id": "integration",
+      "number": 7,
+      "title": "Интеграл Римана",
+      "subtitle": "От сумм к накоплению.",
+      "description": "Интегрируемость, основная теорема и несобственные интегралы.",
+      "lessons": [
+        {
+          "id": "riemann",
+          "title": "Построение интеграла Римана",
+          "subtitle": "Суммы Дарбу и критерий интегрируемости.",
+          "minutes": 22,
+          "file": "lessons/riemann.md"
+        },
+        {
+          "id": "fundamental-theorem",
+          "title": "Основная теорема анализа",
+          "subtitle": "Первообразная, подстановка и интегрирование по частям.",
+          "minutes": 22,
+          "file": "lessons/fundamental-theorem.md"
+        },
+        {
+          "id": "improper-integrals",
+          "title": "Несобственные интегралы",
+          "subtitle": "Пределы, признаки сравнения и абсолютная сходимость.",
+          "minutes": 20,
+          "file": "lessons/improper-integrals.md"
+        }
+      ]
+    },
+    {
+      "id": "uniform",
+      "number": 8,
+      "title": "Функциональные последовательности",
+      "subtitle": "Когда предел можно менять местами с операциями.",
+      "description": "Равномерная сходимость и степенные ряды.",
+      "lessons": [
+        {
+          "id": "uniform-limit",
+          "title": "Поточечная и равномерная сходимость",
+          "subtitle": "Норма супремума и сохранение непрерывности.",
+          "minutes": 20,
+          "file": "lessons/uniform-limit.md"
+        },
+        {
+          "id": "uniform-series",
+          "title": "Ряды функций и интегрирование",
+          "subtitle": "Признак Вейерштрасса и почленное дифференцирование.",
+          "minutes": 22,
+          "file": "lessons/uniform-series.md"
+        },
+        {
+          "id": "power-series",
+          "title": "Степенные ряды",
+          "subtitle": "Радиус сходимости, аналитичность и разложения.",
+          "minutes": 22,
+          "file": "lessons/power-series.md"
+        }
+      ]
+    },
+    {
+      "id": "metric",
+      "number": 9,
+      "title": "Метрические пространства",
+      "subtitle": "Геометрия сходимости в общем виде.",
+      "description": "Открытые множества, компактность и полнота.",
+      "lessons": [
+        {
+          "id": "metric-basics",
+          "title": "Метрика и топология",
+          "subtitle": "Окрестности, замыкание и непрерывность.",
+          "minutes": 21,
+          "file": "lessons/metric-basics.md"
+        },
+        {
+          "id": "compactness",
+          "title": "Компактность и полнота",
+          "subtitle": "Последовательности, покрытия и важные различия.",
+          "minutes": 22,
+          "file": "lessons/compactness.md"
+        },
+        {
+          "id": "contraction",
+          "title": "Принцип сжимающих отображений",
+          "subtitle": "Неподвижная точка и оценка скорости итераций.",
+          "minutes": 20,
+          "file": "lessons/contraction.md"
+        }
+      ]
+    },
+    {
+      "id": "multivariable",
+      "number": 10,
+      "title": "Функции многих переменных",
+      "subtitle": "Дифференциал как линейное отображение.",
+      "description": "Производные, неявные функции и оптимизация.",
+      "lessons": [
+        {
+          "id": "frechet",
+          "title": "Дифференцируемость и матрица Якоби",
+          "subtitle": "Частные производные, градиент и правило цепочки.",
+          "minutes": 23,
+          "file": "lessons/frechet.md"
+        },
+        {
+          "id": "implicit",
+          "title": "Обратная и неявная функции",
+          "subtitle": "Ранг, локальная обратимость и дифференцирование связей.",
+          "minutes": 22,
+          "file": "lessons/implicit.md"
+        },
+        {
+          "id": "optimization",
+          "title": "Экстремумы и множители Лагранжа",
+          "subtitle": "Гессиан, квадратичные формы и условные экстремумы.",
+          "minutes": 23,
+          "file": "lessons/optimization.md"
+        }
+      ]
+    },
+    {
+      "id": "multiple",
+      "number": 11,
+      "title": "Кратные и векторные интегралы",
+      "subtitle": "Геометрия интегрирования.",
+      "description": "Фубини, замена переменных и интегральные теоремы.",
+      "lessons": [
+        {
+          "id": "fubini",
+          "title": "Кратные интегралы и Фубини",
+          "subtitle": "Повторные интегралы и точные условия их перестановки.",
+          "minutes": 21,
+          "file": "lessons/fubini.md"
+        },
+        {
+          "id": "change-variables",
+          "title": "Замена переменных",
+          "subtitle": "Якобиан, полярные координаты и область интегрирования.",
+          "minutes": 20,
+          "file": "lessons/change-variables.md"
+        },
+        {
+          "id": "vector-integrals",
+          "title": "Грин, Стокс и Гаусс",
+          "subtitle": "Ориентация, поток и циркуляция.",
+          "minutes": 24,
+          "file": "lessons/vector-integrals.md"
+        }
+      ]
+    },
+    {
+      "id": "measure",
+      "number": 12,
+      "title": "Мера и интеграл Лебега",
+      "subtitle": "Более устойчивый язык интегрирования.",
+      "description": "Измеримость, сходимость и теоремы о предельном переходе.",
+      "lessons": [
+        {
+          "id": "lebesgue-measure",
+          "title": "Мера и измеримые множества",
+          "subtitle": "Внешняя мера, σ-алгебры и почти всюду.",
+          "minutes": 23,
+          "file": "lessons/lebesgue-measure.md"
+        },
+        {
+          "id": "lebesgue-integral",
+          "title": "Интеграл Лебега",
+          "subtitle": "Простые функции и сравнение с интегралом Римана.",
+          "minutes": 23,
+          "file": "lessons/lebesgue-integral.md"
+        },
+        {
+          "id": "convergence-theorems",
+          "title": "Теоремы о сходимости",
+          "subtitle": "Монотонная сходимость, Фату и мажорируемая сходимость.",
+          "minutes": 24,
+          "file": "lessons/convergence-theorems.md"
+        }
+      ]
+    },
+    {
+      "id": "functional",
+      "number": 13,
+      "title": "Функциональный анализ",
+      "subtitle": "Пространства функций как геометрические объекты.",
+      "description": "Нормы, гильбертовы пространства и Lᵖ.",
+      "lessons": [
+        {
+          "id": "banach",
+          "title": "Нормированные и банаховы пространства",
+          "subtitle": "Нормы, ограниченные операторы и полнота.",
+          "minutes": 22,
+          "file": "lessons/banach.md"
+        },
+        {
+          "id": "hilbert",
+          "title": "Гильбертовы пространства",
+          "subtitle": "Ортогональность, проекции и неравенство Бесселя.",
+          "minutes": 23,
+          "file": "lessons/hilbert.md"
+        },
+        {
+          "id": "lp",
+          "title": "Пространства Lᵖ",
+          "subtitle": "Неравенства Гёльдера и Минковского и классы функций.",
+          "minutes": 23,
+          "file": "lessons/lp.md"
+        }
+      ]
+    },
+    {
+      "id": "ode-fourier",
+      "number": 14,
+      "title": "Дифференциальные уравнения и Фурье",
+      "subtitle": "Приложения общего аппарата.",
+      "description": "Задача Коши, линейные системы и разложения.",
+      "lessons": [
+        {
+          "id": "ode-existence",
+          "title": "Задача Коши",
+          "subtitle": "Теорема Пикара — Линделёфа и роль условия Липшица.",
+          "minutes": 24,
+          "file": "lessons/ode-existence.md"
+        },
+        {
+          "id": "linear-ode",
+          "title": "Линейные уравнения",
+          "subtitle": "Вариация постоянной и уравнения второго порядка.",
+          "minutes": 22,
+          "file": "lessons/linear-ode.md"
+        },
+        {
+          "id": "fourier",
+          "title": "Ряды Фурье",
+          "subtitle": "Коэффициенты, сходимость и равенство Парсеваля.",
+          "minutes": 25,
+          "file": "lessons/fourier.md"
+        }
+      ]
+    }
+  ]
+}

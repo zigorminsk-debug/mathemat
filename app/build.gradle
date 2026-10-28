@@ -1,0 +1,47 @@
+plugins {
+    id 'com.android.application'
+}
+
+def releaseStore = System.getenv('MATHEMAT_KEYSTORE_PATH')
+def releasePassword = System.getenv('MATHEMAT_KEYSTORE_PASSWORD')
+def buildNumber = providers.gradleProperty('appVersionCode').orElse('1').get().toInteger()
+
+android {
+    namespace 'by.mathemat.predel'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'by.mathemat.predel'
+        minSdk 24
+        targetSdk 35
+        versionCode buildNumber
+        versionName "1.0.${buildNumber}"
+    }
+
+    signingConfigs {
+        release {
+            // Never generate or hard-code a release key. A missing secret must fail the release.
+            storeFile file(releaseStore ?: 'missing-release-keystore.p12')
+            storeType 'PKCS12'
+            storePassword releasePassword ?: ''
+            keyAlias 'mathemat'
+            keyPassword releasePassword ?: ''
+        }
+    }
+    buildTypes {
+        debug {
+            applicationIdSuffix '.preview'
+            versionNameSuffix '-preview'
+            resValue 'string', 'app_name', 'Предел · предварительная версия'
+        }
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            resValue 'string', 'app_name', 'Предел'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}

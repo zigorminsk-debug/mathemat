@@ -1,0 +1,20 @@
+{
+  "name": "predel-textbook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Офлайн-учебник математического анализа для Android",
+  "type": "module",
+  "scripts": {
+    "build:content": "node scripts/build-content.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "devDependencies": {
+    "@fontsource-variable/literata": "5.3.0",
+    "@fontsource-variable/manrope": "5.3.0",
+    "jsdom": "26.1.0",
+    "katex": "0.16.22",
+    "markdown-it": "14.1.0",
+    "markdown-it-texmath": "1.0.0"
+  }
+}
