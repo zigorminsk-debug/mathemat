@@ -119,8 +119,9 @@ h1,h2,.chapter-title,.lesson-card-copy strong,.resume-copy strong,.next-lesson s
 .back-link{display:inline-flex;align-items:center;gap:8px;color:#7a9181;font-size:11px;font-weight:800;margin-bottom:30px}
 .back-link .icon{width:17px;height:17px}
 .chapter-intro{display:flex;gap:20px;align-items:flex-start}
+.chapter-intro>div:last-child{min-width:0}
 .chapter-intro-number{width:66px;height:66px;display:grid;place-items:center;flex:none;background:#e9f0e8;border-radius:12px;color:#628972;font-family:Literata,serif;font-size:25px}
-.chapter-intro h1,.reading-head h1{font-size:clamp(31px,4vw,45px);letter-spacing:-.05em;line-height:1.2;font-weight:550;margin-top:8px}
+.chapter-intro h1,.reading-head h1{font-size:clamp(31px,4vw,45px);letter-spacing:-.05em;line-height:1.2;font-weight:550;margin-top:8px;overflow-wrap:anywhere;hyphens:auto}
 .chapter-intro p,.reading-head>p{font-size:13px;color:#899a8e;line-height:1.7;margin-top:10px}
 .chapter-progress{margin:30px 0 36px;padding:17px 20px;border:1px solid var(--line);background:#fffefa;border-radius:10px}
 .chapter-progress>div:first-child{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}

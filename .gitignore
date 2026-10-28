@@ -4,6 +4,7 @@ build/
 local.properties
 node_modules/
 .signing/
+.artifacts/
 *.jks
 *.keystore
 *.p12
